@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sora:wght@300&display=swap');
+
 
 body {
+ background-color: grey;
  margin: 0 auto;
+}
+
+header {
+ text-align: center;
+ font-family: 'Montserrat';
+}
+
+header h1 {
+ font-size: 100px;
+ letter-spacing: 18px;
 }
 
 .navbar {
  display: flex;
- padding: 14px;
- background-color: grey;
- width: 100%;
+ padding-top: 25px;
+ padding-bottom: 10px;
+ text-align: center;
+ background-color: black;
+
 }
 
 .navbar ul {
@@ -25,7 +40,7 @@ body {
 a:link,
 a:visited {
  text-decoration: none;
- color: turquoise;
+ color: grey;
 }
 
 a:hover {
@@ -35,3 +50,4 @@ a:hover {
  text-decoration: underline;
  display: inline-block;
 }
+
