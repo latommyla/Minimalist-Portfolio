@@ -26,7 +26,9 @@ header img {
  height: 250px;
  border-radius: 50%;
  border: 3px solid grey;
+ box-shadow: 0px 0px 20px grey;
 }
+
 
 .navbar {
  display: flex;
@@ -35,7 +37,7 @@ header img {
  padding-right: 30px;
  align-items: center;
  background-color: black;
-
+ box-shadow: 5px 10px 20px grey;
 }
 
 .navbar ul {
@@ -106,8 +108,11 @@ a:hover {
 }
 
 .contact img {
+ margin: 0px 20px;
  height: 100px;
  width: 100px;
- padding: 15px;
+ padding: 10px;
+ border-radius: 50%;
+ box-shadow: 0px 0px 15px grey;
 }
 
