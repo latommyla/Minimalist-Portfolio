@@ -21,7 +21,8 @@ header h1 {
  display: flex;
  padding-top: 25px;
  padding-bottom: 10px;
- text-align: center;
+ padding-right: 30px;
+ align-items: center;
  background-color: black;
 
 }
