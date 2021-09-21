@@ -94,3 +94,19 @@ a:hover {
  font-family: 'Bebas Neue';
  letter-spacing: 0.10em;
 }
+
+.contact h2 {
+ margin: 0 auto;
+ font-size: 70px;
+ font-family: 'Bebas Neue';
+ letter-spacing: 0.10em;
+}
+
+.contact p {
+ display: inline-block;
+}
+
+.contact img {
+ height: 150px;
+ width: 150px;
+}
