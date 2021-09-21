@@ -14,7 +14,7 @@ header {
 
 header h1 {
  font-size: 100px;
- letter-spacing: 18px;
+ letter-spacing: 0.25em;
 }
 
 .navbar {
