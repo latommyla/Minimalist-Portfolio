@@ -68,6 +68,38 @@ a:hover {
  display: inline-block;
 }
 
+.container-1 {
+ display: flex;
+}
+
+.container-1 div {
+ padding: 50px;
+}
+
+.box-1 {
+ flex: 1;
+}
+
+.box-2 {
+ flex: 1;
+}
+
+.container-2 {
+ display: flex;
+}
+
+.container-2 div {
+ padding: 50px;
+}
+
+.box-3 {
+ flex: 1;
+}
+
+.box-4 {
+ flex: 1;
+}
+
 .line {
  display: block;
  margin: 0 auto;
@@ -97,6 +129,10 @@ a:hover {
  font-size: 70px;
  font-family: 'Bebas Neue';
  letter-spacing: 0.10em;
+}
+
+.work img {
+ width: 650px;
 }
 
 .contact div {
