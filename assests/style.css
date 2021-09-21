@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sora:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Sora:wght@300&display=swap');
 
 body {
  background-color: #d4d4d4;
@@ -64,3 +64,33 @@ a:hover {
  display: inline-block;
 }
 
+.line {
+ display: block;
+ margin: 0 auto;
+ width: 50%;
+ padding-top: 70px;
+}
+
+.work,
+.about,
+.contact {
+ padding-top: 90px;
+ display: block;
+ text-align: center;
+ font-family: 'Montserrat';
+ width: 100%;
+}
+
+.work h2 {
+ margin: 0 auto;
+ font-size: 70px;
+ font-family: 'Bebas Neue';
+ letter-spacing: 0.10em;
+}
+
+.about h2 {
+ margin: 0 auto;
+ font-size: 70px;
+ font-family: 'Bebas Neue';
+ letter-spacing: 0.10em;
+}
