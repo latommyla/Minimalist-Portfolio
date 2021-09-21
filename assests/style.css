@@ -3,6 +3,7 @@
 body {
  background-color: #d4d4d4;
  margin: 0 auto;
+ margin-top: 150px;
 }
 
 header {
@@ -29,7 +30,6 @@ header img {
  box-shadow: 0px 0px 20px grey;
 }
 
-
 .navbar {
  display: flex;
  padding-top: 25px;
@@ -38,6 +38,9 @@ header img {
  align-items: center;
  background-color: black;
  box-shadow: 5px 10px 20px grey;
+ position: fixed;
+ top: 0; 
+ width: 100%;
 }
 
 .navbar ul {
