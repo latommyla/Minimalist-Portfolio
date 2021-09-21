@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
 body {
  margin: 0 auto;
 }
 
-header {
+.navbar {
  display: flex;
- justify-content: space-between;
- align-items: center;
+ padding: 14px;
+ background-color: grey;
+ width: 100%;
 }
 
-nav ul {
+.navbar ul {
+ margin: 0 auto;
+}
+
+.navbar li {
+ font-family: 'Sora', sans-serif;
  display: inline-block;
+ list-style-type: none;
+ padding: 5px 40px 5px 40px;
 }
 
-nav li {
- list-style-type: none;
+a:link,
+a:visited {
+ text-decoration: none;
+ color: turquoise;
+}
+
+a:hover {
+ border-radius: 3px;
+ color: white;
+ text-align: center;
+ text-decoration: underline;
+ display: inline-block;
 }
