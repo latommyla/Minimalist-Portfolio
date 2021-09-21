@@ -70,6 +70,7 @@ a:hover {
 
 .container-1 {
  display: flex;
+ width: 50%;
 }
 
 .container-1 div {
