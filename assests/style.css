@@ -13,6 +13,10 @@ header {
  font-family: 'Montserrat';
 }
 
+img {
+ width: 100%;
+}
+
 header h1 {
  font-size: 100px;
  font-weight: 300;
@@ -34,6 +38,7 @@ header img {
 
 .navbar {
  display: flex;
+ flex-direction: column;
  padding-top: 25px;
  padding-bottom: 10px;
  padding-right: 30px;
@@ -71,6 +76,8 @@ a:hover {
 }
 
 #container {
+ display: flex;
+ flex-direction: column;
  width: 80%;
  margin: 0px auto;
 }
@@ -78,7 +85,6 @@ a:hover {
 .container-1 {
  display: flex;
  align-items: center;
- width: 100%;
 }
 
 .container-1 div {
@@ -141,7 +147,7 @@ a:hover {
 }
 
 .work img {
- width: 550px;
+ width: 600px;
  border-radius: 10px;
 }
 
@@ -165,8 +171,20 @@ a:hover {
  box-shadow: 0px 0px 15px grey;
 }
 
-@media screen and (max-width: 800px) {
- body {
+@media screen and (max-width: 768px) {
+ #container {
+  width: 60%;
+ }
+}
+
+@media screen and (max-width: 414px) {
+ #container {
+  width: 40%;
+ }
+}
+
+@media screen and (max-width: 414px) {
+ .work img {
   width: 75%;
  }
 }
