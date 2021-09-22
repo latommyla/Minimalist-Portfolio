@@ -101,6 +101,7 @@ a:hover {
 
 .container-2 {
  display: flex;
+ align-items: center;
 }
 
 .container-2 div {
@@ -112,7 +113,7 @@ a:hover {
 }
 
 .box-4 {
- flex: 1;
+ flex: 3;
 }
 
 .line {
