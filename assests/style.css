@@ -43,28 +43,20 @@ header img {
  box-shadow: 0px 0px 20px grey;
 }
 
+.header-p {
+ font-size: 20px;
+}
+
 /* Media query properties for header elements */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
  .header-p {
-  font-size: 15px;
+  font-size: 12px;
  }
 }
 
-@media screen and (max-width: 400px) {
- .header-p {
-  font-size: 10px;
- }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
  header h1 {
-  font-size: 75px;
- }
-}
-
-@media screen and (max-width: 400px) {
- header h1 {
-  font-size: 50px;
+  font-size: 60px;
  }
 }
 
@@ -94,6 +86,7 @@ header img {
  padding: 5px 40px 5px 40px;
 }
 
+/* Link text decoration and hover selector */
 a:link,
 a:visited {
  text-decoration: none;
@@ -108,10 +101,7 @@ a:hover {
  display: inline-block;
 }
 
-.header-p {
- font-size: 20px;
-}
-
+/* <hr> line div */
 .line {
  display: block;
  margin: 0 auto;
@@ -119,6 +109,7 @@ a:hover {
  padding-top: 70px;
 }
 
+/* Body elements */
 .work,
 .about,
 .contact {
@@ -140,6 +131,14 @@ a:hover {
  padding-bottom: 35px;
 }
 
+@media screen and (max-width: 500px) {
+ .work h2,
+ .about h2,
+ .contact h2 { 
+  font-size: 45px;
+ }
+}
+
 .work img {
  width: 45vw;
  border-radius: 10px;
@@ -152,13 +151,20 @@ a:hover {
 
 .work p {
  margin: 0 auto;
- width: 30%;
- padding-bottom: 25px;
+ width: 35%;
+ padding-bottom: 30px;
 }
 
 .about p {
  margin: 0 auto;
- width: 30%;
+ width: 35%;
+}
+
+@media screen and (max-width: 500px) {
+ .work p,
+ .about p {
+  width: 70%;
+ }
 }
 
 .contact div {
