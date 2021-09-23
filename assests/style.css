@@ -11,6 +11,7 @@ body {
 header {
  text-align: center;
  font-family: 'Montserrat';
+ width: 100%;
 }
 
 p {
@@ -38,6 +39,30 @@ header img {
  border-radius: 50%;
  border: 3px solid grey;
  box-shadow: 0px 0px 20px grey;
+}
+
+@media screen and (max-width: 800px) {
+ .header-p {
+  font-size: 15px;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .header-p {
+  font-size: 10px;
+ }
+}
+
+@media screen and (max-width: 800px) {
+ header h1 {
+  font-size: 75px;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ header h1 {
+  font-size: 50px;
+ }
 }
 
 .navbar {
@@ -77,6 +102,10 @@ a:hover {
  text-align: center;
  text-decoration: underline;
  display: inline-block;
+}
+
+.header-p {
+ font-size: 20px;
 }
 
 .line {
