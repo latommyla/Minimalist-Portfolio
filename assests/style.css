@@ -75,47 +75,6 @@ a:hover {
  display: inline-block;
 }
 
-#container {
- display: flex;
- flex-direction: row;
- width: 80%;
- margin: 0px auto;
-}
-
-.container-1 {
- display: flex;
- align-items: center;
-}
-
-.container-1 div {
- padding: 50px;
-}
-
-.box-1 {
- flex: 1;
-}
-
-.box-2 {
- flex: 3;
-}
-
-.container-2 {
- display: flex;
- align-items: center;
-}
-
-.container-2 div {
- padding: 50px;
-}
-
-.box-3 {
- flex: 1;
-}
-
-.box-4 {
- flex: 3;
-}
-
 .line {
  display: block;
  margin: 0 auto;
@@ -126,6 +85,7 @@ a:hover {
 .work,
 .about,
 .contact {
+ margin: 0 auto;
  padding-top: 90px;
  display: block;
  text-align: center;
@@ -133,18 +93,14 @@ a:hover {
  width: 100%;
 }
 
-.work h2 {
+.work h2,
+.about h2,
+.contact h2 {
  margin: 0 auto;
  font-size: 70px;
  font-family: 'Bebas Neue';
  letter-spacing: 0.10em;
-}
-
-.about h2 {
- margin: 0 auto;
- font-size: 70px;
- font-family: 'Bebas Neue';
- letter-spacing: 0.10em;
+ padding-bottom: 35px;
 }
 
 .work img {
@@ -152,15 +108,18 @@ a:hover {
  border-radius: 10px;
 }
 
-.contact div {
- padding: 15px;
+.work h3 {
+ font-size: xx-large;
 }
 
-.contact h2 {
+.work p {
  margin: 0 auto;
- font-size: 70px;
- font-family: 'Bebas Neue';
- letter-spacing: 0.10em;
+ width: 30%;
+ padding-bottom: 25px;
+}
+
+.contact div {
+ padding: 15px;
 }
 
 .contact img {
