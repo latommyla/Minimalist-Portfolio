@@ -13,6 +13,10 @@ header {
  font-family: 'Montserrat';
 }
 
+p {
+ font-size: large;
+}
+
 img {
  width: 100%;
 }
@@ -104,8 +108,9 @@ a:hover {
 }
 
 .work img {
- width: 40vw;
+ width: 45vw;
  border-radius: 10px;
+ box-shadow: 0px 0px 20px grey;
 }
 
 .work h3 {
@@ -116,6 +121,11 @@ a:hover {
  margin: 0 auto;
  width: 30%;
  padding-bottom: 25px;
+}
+
+.about p {
+ margin: 0 auto;
+ width: 30%;
 }
 
 .contact div {
@@ -129,25 +139,4 @@ a:hover {
  padding: 10px;
  border-radius: 50%;
  box-shadow: 0px 0px 15px grey;
-}
-
-@media screen and (max-width: 768px) {
- #container {
-  flex-direction: column;
-  width: 60%;
- }
-}
-
-@media screen and (max-width: 414px) {
- #container {
-  flex-direction: column;
-  width: 40%;
- }
-}
-
-
-@media screen and (max-width: 414px) {
- .work img {
-  width: 75%;
- }
 }
