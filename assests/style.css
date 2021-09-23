@@ -48,13 +48,13 @@ header img {
 }
 
 /* Media query properties for header elements */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
  .header-p {
   font-size: 12px;
  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
  header h1 {
   font-size: 60px;
  }
@@ -131,7 +131,7 @@ a:hover {
  padding-bottom: 35px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
  .work h2,
  .about h2,
  .contact h2 { 
@@ -143,6 +143,12 @@ a:hover {
  width: 45vw;
  border-radius: 10px;
  box-shadow: 0px 0px 20px grey;
+}
+
+@media screen and (max-width: 800px) {
+ .work img {
+  width: 80vw;
+ }
 }
 
 .work h3 {
@@ -160,7 +166,7 @@ a:hover {
  width: 35%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
  .work p,
  .about p {
   width: 70%;
