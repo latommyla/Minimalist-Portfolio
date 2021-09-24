@@ -5,15 +5,9 @@ body {
  background-color: #d4d4d4;
  margin: 0 auto;
  padding-top: 90px;
+ padding-bottom: 90px;
  width: 100%;
  text-align: center;
-}
-
-/* All header elements */
-header {
- text-align: center;
- font-family: 'Montserrat';
- width: 100%;
 }
 
 p {
@@ -21,6 +15,13 @@ p {
 }
 
 img {
+ width: 100%;
+}
+
+/* All header elements */
+header {
+ text-align: center;
+ font-family: 'Montserrat';
  width: 100%;
 }
 
@@ -72,7 +73,7 @@ header img {
  }
 }
 
-/* Fixed navbar */
+/* Fixed navbar selector */
 .navbar {
  display: flex;
  flex-direction: column;
@@ -143,6 +144,7 @@ a:hover {
  padding-bottom: 35px;
 }
 
+/* Media query for work and about paragraphs */
 @media screen and (max-width: 500px) {
  .work p,
  .about p { 
@@ -156,6 +158,7 @@ a:hover {
  box-shadow: 0px 0px 20px grey;
 }
 
+/* Media query for work images */
 @media screen and (max-width: 800px) {
  .work img {
   width: 80vw;
@@ -177,6 +180,7 @@ a:hover {
  width: 35%;
 }
 
+/* Media query for width for paragraph text */
 @media screen and (max-width: 800px) {
  .work p,
  .about p {
