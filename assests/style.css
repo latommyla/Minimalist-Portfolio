@@ -175,7 +175,10 @@ a:hover {
  padding-bottom: 30px;
 }
 
-.about p {
+.about ul {
+ padding: 0;
+ text-align: left;
+ list-style-type: none;
  margin: 0 auto;
  width: 35%;
 }
