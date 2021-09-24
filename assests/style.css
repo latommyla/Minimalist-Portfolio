@@ -50,7 +50,13 @@ header img {
 /* Media query properties for header elements */
 @media screen and (max-width: 800px) {
  .header-p {
-  font-size: 12px;
+  font-size: 14px;
+ }
+}
+
+@media screen and (max-width: 500px) {
+ .header-p {
+  font-size: 11px;
  }
 }
 
@@ -60,14 +66,18 @@ header img {
  }
 }
 
+@media screen and (max-width: 500px) {
+ header h1 {
+  font-size: 50px;
+ }
+}
+
 /* Fixed navbar */
 .navbar {
  display: flex;
  flex-direction: column;
  padding-top: 25px;
  padding-bottom: 10px;
- padding-right: 30px;
- align-items: center;
  background-color: black;
  box-shadow: 5px 10px 20px grey;
  position: fixed;
@@ -77,16 +87,18 @@ header img {
 
 .navbar ul {
  margin: 0 auto;
+ padding: 0;
 }
 
 .navbar li {
+ margin: 0 auto;
  font-family: 'Sora', sans-serif;
  display: inline-block;
  list-style-type: none;
  padding: 5px 40px 5px 40px;
 }
 
-/* Link text decoration and hover selector */
+/* Link text decoration and hover selector for links */
 a:link,
 a:visited {
  text-decoration: none;
@@ -131,16 +143,15 @@ a:hover {
  padding-bottom: 35px;
 }
 
-@media screen and (max-width: 800px) {
- .work h2,
- .about h2,
- .contact h2 { 
-  font-size: 45px;
+@media screen and (max-width: 500px) {
+ .work p,
+ .about p { 
+  font-size: 16px;
  }
 }
 
 .work img {
- width: 45vw;
+ width: 600px;
  border-radius: 10px;
  box-shadow: 0px 0px 20px grey;
 }
