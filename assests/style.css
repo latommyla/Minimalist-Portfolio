@@ -186,7 +186,8 @@ a:hover {
 /* Media query for width for paragraph text */
 @media screen and (max-width: 800px) {
  .work p,
- .about p {
+ .about p,
+ .about ul {
   width: 70%;
  }
 }
