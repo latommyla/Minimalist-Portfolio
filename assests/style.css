@@ -177,6 +177,7 @@ a:hover {
 .about ul {
  padding: 0;
  text-align: center;
+ font-size: large;
  list-style-type: none;
  margin: 0 auto;
  width: 35%;
@@ -193,6 +194,7 @@ a:hover {
 
 .contact div {
  padding: 15px;
+ padding-bottom: 50px;
 }
 
 .contact img {
@@ -202,6 +204,12 @@ a:hover {
  padding: 10px;
  border-radius: 50%;
  box-shadow: 0px 0px 15px grey;
+}
+
+/* Transition for contact image links */
+.contact img:hover {
+ opacity: .75;
+ transition: ease-out;
 }
 
 .footer {
