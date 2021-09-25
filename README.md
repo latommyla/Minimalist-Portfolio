@@ -40,7 +40,7 @@ This was my first ever portfolio or website that I have ever developed from scra
 
 ## <div id="screenshot"> Website preview </div>
 
-<img src="./assests/images/readmescreenshot.png">
+<img src="./assests/images/readmescreenshot.png" align="center">
 
 ## <div id="links"> Links </div>
 
