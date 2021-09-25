@@ -11,6 +11,7 @@ This was my first ever portfolio or website that I have ever developed from scra
  <li><a href="#images"> Images </a></li>
  <li><a href="#learn"> What did I learn from all this? </a></li>
  <li><a href="#sscreenshot"> Website preview </a></li>
+ <li><a href="#links"> Links </a></li>
 </ol>
 
 ## <div id="difficulty"> How difficult was this? </div>
@@ -39,4 +40,12 @@ This was my first ever portfolio or website that I have ever developed from scra
 
 ## <div id="screenshot"> Website preview </div>
 
-* 
+<img src="./assests/images/readmescreenshot.png">
+
+## <div id="links"> Links </div>
+
+* [index.html file](https://github.com/latommyla/Minimalist-Portfolio/blob/main/index.html) 
+* [style.css file](https://github.com/latommyla/Minimalist-Portfolio/blob/main/assests/style.css)
+* [all images used](https://github.com/latommyla/Minimalist-Portfolio/tree/main/assests/images)
+* [GitHub Repo](https://github.com/latommyla/Minimalist-Portfolio)
+* [Link to website](https://latommyla.github.io/Minimalist-Portfolio/)
